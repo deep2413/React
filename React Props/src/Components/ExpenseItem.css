@@ -1,0 +1,24 @@
+.first-column{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-right: none;
+    background-color: rgba(245, 222, 179, 0.438);
+}
+.second-column{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-left: none;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+.third-column{
+    font-size: 30px;
+    background-color: wheat;
+    border-radius: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
