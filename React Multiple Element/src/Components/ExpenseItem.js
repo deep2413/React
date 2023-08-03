@@ -1,18 +1,15 @@
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
+import Card from './Card';
 
 function ExpenseItem(props){
     
     return(
 
         <div>
-           
-           <div className="container-fluid">
-            
+           <Card className="container-fluid">
                <div className="row bg-primary pb-3 pt-3 p-2">
-                 
                  <ExpenseDate date={props.date}/>
-
                  <div className="col-md-8  second-column text-center fw-bold">
                    {props.title}
                  </div>
@@ -22,7 +19,7 @@ function ExpenseItem(props){
                    </div>
                  </div>
               </div>
-           </div>
+           </Card>
 
         </div>
 
